@@ -1,13 +1,3 @@
-- title: "Imaging the Kondo Insulating Gap on SmB<sub>6</sub>"
-  cite: "<a class='nounder' href='http://arxiv.org/abs/1308.1085'>arxiv:1308.1085</a>"
-  authors: "Michael M. Yee, Yang He, Anjan Soumyanarayanan, Dae-Jeong Kim, Zachary Fisk, Jennifer E. Hoffman"
-  url: http://arxiv.org/abs/1308.1085
-
-- title: "Imaging the Nanoscale Band Structure of Topological Sb"
-  cite: "<a class='nounder' href='http://arxiv.org/abs/1311.1758'>arxiv:1311.1758</a>"
-  authors: "Anjan Soumyanarayanan, Michael M. Yee, Yang He, Hsin Lin, Dillon R. Gardner, Arun Bansil, Young S. Lee, Jennifer E. Hoffman"
-  url: http://arxiv.org/abs/1311.1758
-
 - title: "The study of electronic nemacity in an overdoped (Bi,Pb)<sub>2</sub>Sr<sub>2</sub>CuO<sub>6+&delta;</sub> superconductor using scanning tunneling spectroscopy"
   cite: "<a class='nounder' href='http://dx.doi.org/10.1038/s41598-017-08376-1'><em>Scientific Reports</em> 7, 8059 (August 2017)</a>"
   authors: "Yuan Zheng, Ying Fei, Kunliang Bu, Wenhao Zhang, Ying Ding, Xinjiang Zhou, Jennifer E. Hoffman, Yi Yin"
@@ -28,3 +18,13 @@
   cite: "<a class='nounder' href='http://dx.doi.org/10.1063/1.4976567'><em>Review of Scientific Instruments</em> 88, 023705 (21 February 2017)</a>
     (<a class='nounder' href='http://arxiv.org/abs/1310.6733'>arxiv:1310.6733</a>)"
   url: http://dx.doi.org/1s0.1063/1.4976567
+
+- title: "Imaging the Kondo Insulating Gap on SmB<sub>6</sub>"
+  cite: "<a class='nounder' href='http://arxiv.org/abs/1308.1085'>arxiv:1308.1085</a>"
+  authors: "Michael M. Yee, Yang He, Anjan Soumyanarayanan, Dae-Jeong Kim, Zachary Fisk, Jennifer E. Hoffman"
+  url: http://arxiv.org/abs/1308.1085
+
+- title: "Imaging the Nanoscale Band Structure of Topological Sb"
+  cite: "<a class='nounder' href='http://arxiv.org/abs/1311.1758'>arxiv:1311.1758</a>"
+  authors: "Anjan Soumyanarayanan, Michael M. Yee, Yang He, Hsin Lin, Dillon R. Gardner, Arun Bansil, Young S. Lee, Jennifer E. Hoffman"
+  url: http://arxiv.org/abs/1311.1758
