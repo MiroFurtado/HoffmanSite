@@ -1,34 +1,15 @@
 ---
 title: "Hoffman Lab - People"
 layout: gridlay
-excerpt: "Hoffman Lab: People"
+excerpt: "Hoffman Lab - People"
 sitemap: false
 permalink: /people/
 ---
 
 # Group Members
 
-<div class="row">
-
-<div class="col-sm-6 clearfix">
-## Professor 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/JennyHoffman_large.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Jenny Hoffman</h4>
-  <i><jhoffman@physics.harvard.edu><br>CV: <a href="http://users.physics.harvard.edu/~jhoffman/HoffmanCVshort.pdf">Short</a>, <a href="http://users.physics.harvard.edu/~jhoffman/HoffmanCVlong.pdf">Extended</a><br><a href="http://users.physics.harvard.edu/~jhoffman/HoffmanCVshort.pdf">Personal website</a></i>
-</div>
-
-<div class="col-sm-6 clearfix">
-## Research Associate
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/Jason.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Jason Hoffman</h4>
-  <i><jasonhoffman@fas.harvard.edu></i>
-</div>
-</div>
-
-## Post-docs
-
 {% assign number_printed = 0 %}
-{% for member in site.data.postdocs %}
+{% for member in site.data.people %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -39,7 +20,9 @@ permalink: /people/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i><{{ member.email}}></i>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <p>{{member.description}}
+  </p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -58,7 +41,7 @@ permalink: /people/
 
 
 
-## Grad Students 
+<!--## Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -69,9 +52,33 @@ permalink: /people/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i><{{ member.email }}></i>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <ul style="overflow: hidden">
+
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+
+  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -85,33 +92,4 @@ permalink: /people/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
-
-## Undergraduates
-{% assign number_printed = 0 %}
-{% for member in site.data.undergrads %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i><{{ member.email }}></i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+{% endif %}-->

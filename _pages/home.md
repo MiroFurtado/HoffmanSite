@@ -9,21 +9,26 @@ permalink: /
 
 The Hoffman lab combines molecular beam epitaxy and scanning probe microscopy to understand and control the nanoscale electronic and magnetic properties of exotic materials.
  
+
+ <div style='color: #22555f' class="alert alert-info" role="alert">
+<h4>
+  Postdoctoral positions available!
+</h4>
+* Launch of an Ultra-Low-Temperature Scanning Probe Microscope (<a href="{{ site.url }}{{ site.baseurl }}/files/2018-postdoc-job-ad-STM-dil-fridge.pdf">details</a>)
+* Fellowship to explore energy-related materials (<b>due Jan 16, 2019</b>):
+  * <a href="http://www.environment.harvard.edu/environmental-fellows-program">Harvard Environmental Fellows Program</a>
+</div>
+
+#### Some materials we study...
  {% include materials.html %}
 
-<br> The last few decades have seen the discovery of materials with exotic properties few would have imagined. Superconductors exhibit zero resistivity up to 135 Kelvin. Multi-ferroic materials allow a magnetic field to write electric domains and an electric field to write magnetic domains. Colossal magnetoresistance materials change their electrical conductivity by orders of magnitude upon application of a magnetic field. Heavy fermion materials host electrons which behave thousands of times heavier than their actual mass, whereas the electrons in graphene behave as if they were massless. Existing materials display fractional charges in two dimensions, and the recently discovered topological insulators may extend these fractional charges into three dimensions.
-
-These diverse behaviors all trace to electron interactions. In conventional metals, electrons barely interact with each other: Fermi liquid theory describes their tendency to screen local charge, so that electrons can be treated as isolated particles in a homogenous background. In contrast, the common feature to all of these exotic materials is that their electrons do interact, and we lack broadly successful theoretical language to describe these 'correlated electron materials'.
-
-The Hoffman Lab uses novel high resolution scanning probe imaging techniques to improve understanding and control of this new generation of exotic 'correlated electron' materials.
 
 ## Interested in this work?
 
 
- * Harvard undergrads: contact Prof. Hoffman any time with the following <a href="http://hoffman.physics.harvard.edu/people/HarvardUndergrad.php">information</a>
- * Harvard graduate students (or admitted prospectives) should talk to <a href="http://www.physics.harvard.edu/people/facpages/hoffman.html">Prof.  Hoffman</a> and visit the <a 
-href="http://hoffman.physics.harvard.edu/images/map2.jpg">lab</a>.
- * Visiting students: prospective summer interns should submit all <a href="http://hoffman.physics.harvard.edu/people/VisitingStudent.php">information</a> by March 15 to ensure full consideration, but requests are welcome any time. Most 
+ * Harvard undergrads: contact Prof. Hoffman any time with the following <a href="{{ site.url }}{{ site.baseurl }}/undergrads">information</a>
+ * Harvard graduate students (or admitted prospectives) should talk to <a href="http://www.physics.harvard.edu/people/facpages/hoffman.html">Prof.  Hoffman</a> and visit the <a href="{{ site.url }}{{ site.baseurl }}/images/map2.jpg">lab</a>.
+ * Visiting students: prospective summer interns should submit all <a href="{{ site.url }}{{ site.baseurl }}/visiting">information</a> by March 15 to ensure full consideration, but requests are welcome any time. Most 
 decisions will be made by the end of March.
  * Prospective graduate students: see Harvard's <a href="http://www.physics.harvard.edu/academics/grad/admissions.html">admissions</a> information.
  * Prospective postdocs: contact Prof. Hoffman any time with the following <a href="http://hoffman.physics.harvard.edu/people/Postdoc.php">information</a>

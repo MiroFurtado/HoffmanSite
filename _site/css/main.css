@@ -2319,7 +2319,11 @@ body { padding-top: 70px; }
 figcaption { text-align: right; margin-top: -20px; margin-bottom: 20px; }
 
 /* Top navigation bar */
+.navbar-default { background-color: #ffffff; border-color: #1C4B99; color: #ffffff; }
+
 p.byline { text-align: center; font-size: 18px; line-height: 36px; margin-top: -24px; margin-bottom: 48px; }
+
+.padding-0 { padding-right: 0; padding-left: 0; }
 
 pubtit { font-weight: bold; }
 

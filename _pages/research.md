@@ -12,9 +12,19 @@ Research in the Hoffman laboratory is motivated by the conviction that technolog
 
 #### <a href="http://hoffman.physics.harvard.edu/research/Hoffman-Laboratory-Research.pdf">Detailed Research Overview</a>
 
+## Microscopes
+
+<div class="row">
+<div id="homeid" class="col-sm-8">
+ {% include microscopes.html %}
+
+</div>
+</div>
+
 ## Materials
 
-<div class="col-sm-8">
+<div class="row">
+<div id="homeid" class="col-sm-8">
  {% include materials.html %}
-
+</div>
 </div>

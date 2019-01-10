@@ -1,0 +1,117 @@
+#Professor
+
+- name: Jenny Hoffman
+  photo: JennyHoffman_small_128.jpg
+  info: Professor
+  email: jhoffman@physics.harvard.edu
+  description: Curriculum Vitae - <a href="http://physics.harvard.edu/~jhoffman/HoffmanCVshort.pdf">short</a> - <a href="http://physics.harvard.edu/~jhoffman/HoffmanCVlong.pdf">extended</a>
+
+#Research Associate
+
+- name: Jason Hoffman
+  photo: Jason.jpg
+  info: Research Associate
+  email: jasonhoffman@fas.harvard.edu
+
+#Postdocs
+
+- name: Jianfeng (Jacky) Ge 
+  photo: Jacky.jpg
+  info: Postdoctoral Researcher
+  email: gejianfeng@fas.harvard.edu
+
+- name: Christian Matt 
+  photo: Christian.jpg
+  info: Postdoctoral Researcher
+  email: cmatt@g.harvard.edu
+
+# Graduate Students
+
+- name: Nathan Drucker
+  photo: NathanDrucker_128_2.jpg
+  info: Graduate Student
+  email: ndrucker@g.harvard.edu
+
+- name: Ruizhe Kang
+  photo: RuizheKang128.jpg
+  info: Graduate Student
+  email: ruizhe_kang@seas.harvard.edu
+
+- name: Larissa Little
+  photo: LarissaLittle_128.jpg
+  info: Graduate Student
+  email: larissalittle@g.harvard.edu
+
+- name: Yu (Richard) Liu
+  photo: Richard128.jpg
+  info: Graduate Student
+  email: yu_liu@g.harvard.edu
+
+- name: Ben November
+  photo: bnovember128.jpg
+  info: Graduate Student
+  email: bnovember@g.harvard.edu
+
+- name: Harry Pirie
+  photo: Harry.jpg
+  info: Graduate Student
+  email: hpirie@g.harvard.edu
+
+- name: Alyson Spitzig
+  photo: Alyson.jpg
+  info: Graduate Student
+  email: alyson_spitzig@g.harvard.edu
+
+- name: Tatiana Webb
+  photo: Tatiana.jpg
+  info: Graduate Student
+  email: twebb@g.harvard.edu
+
+#Visiting Students
+
+- name: William Dorrell
+  photo: WillDorrell_128.jpg
+  info: Visiting Student
+  email: dorrellwec@gmail.com
+
+- name: Kevin Hauser
+  photo: KevinHauser_128.jpg
+  info: Visiting Student
+  email: kevin.hauser@hotmail.com
+
+- name: Jie Zhao
+  photo: jieZhao128.jpg
+  info: Visiting Student
+  email: carrotzhao@sjtu.edu.cn
+
+#Undergraduate Students
+
+- name: Camille Bean
+  photo: camilleBean128.jpg
+  info: Undergraduate
+  email: cmbean@college.harvard.edu
+
+- name: Samuel Detmer
+  photo: SamuelDetmer_128.jpg
+  info: Undergraduate
+  email: sdetmer@college.harvard.edu
+
+- name: William Fu
+  photo: WilliamFu_128.jpg
+  info: Undergraduate
+  email: wfu@college.harvard.edu
+
+- name: Miro Furtado
+  photo: miroFurtado128_2.jpg
+  info: Undergraduate
+  email: furtado@college.harvard.edu
+
+- name: Wenjie Gong
+  photo: WenjieGong_128.jpg
+  info: Undergraduate
+  email: wenjiegong@college.harvard.edu
+
+- name: Tony Turner
+  photo: tonyTurner.jpg
+  info: Undergraduate
+  email: rturner@college.harvard.edu
