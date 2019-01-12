@@ -10,11 +10,11 @@
   publication: "<em>Science</em> 343, 390 (2014)"
   image: "2014-Science-BSCO-CDW.jpg"
   url: http://dx.doi.org/10.1126/science.1242996
-  style: "float: left; height: 180px; position: relative; bottom: 30px; margin-top: 20px"
+  style: "float: left; height: 180px; position: relative; bottom: 0px;"
 
 - title: "Kondo Insulating Gap on $$SmB_6$$"
   description: "We use STM to conduct the first atomic resolution spectroscopic study of the cleaved surface of SmB6, and to reveal a robust hybridization gap that universally spans the Fermi level. Employing a cotunneling model, we separate the density of states of the hybridized bands from which the predicted topological surface states must be disentangled. Our technique lays the groundwork for understanding the first strongly correlated topological insulator, and implements a general method to quantitatively understand a wider class of Kondo insulators."
   image: "2014-arxiv-SmB6.jpg"
-  style: "float: left; height: 190px; position: relative; bottom: 40px"
+  style: "float: left; height: 190px; position: relative; bottom: 0px"
   url: https://arxiv.org/abs/1308.1085
   publication: "arxiv:1308.1085"

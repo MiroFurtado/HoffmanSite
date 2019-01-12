@@ -16,7 +16,7 @@ The Hoffman lab combines molecular beam epitaxy and scanning probe microscopy to
 </h4>
 * Launch of an Ultra-Low-Temperature Scanning Probe Microscope (<a href="{{ site.url }}{{ site.baseurl }}/files/2018-postdoc-job-ad-STM-dil-fridge.pdf">details</a>)
 * Fellowship to explore energy-related materials (<b>due Jan 16, 2019</b>):
-  * <a href="http://www.environment.harvard.edu/environmental-fellows-program">Harvard Environmental Fellows Program</a>
+  * <a style='jkjkcolor: #698e96' href="http://www.environment.harvard.edu/environmental-fellows-program">Harvard Environmental Fellows Program</a>
 </div>
 
 #### Some materials we study...

@@ -12,7 +12,7 @@ permalink: /publications/
 
 ## Highlights
 
-<div class="container">
+<div class="container" style="position: relative; right: 2%">
 
 
 {% for highlight in site.data.highlights %}
@@ -20,8 +20,8 @@ permalink: /publications/
 <div class="row">
 <div class="col-sm-8">
 <div class="well">
-<h3 style="text-align: center">{{highlight.title}}</h3>
 <img style="{{highlight.style}}" src="{{ site.url }}{{ site.baseurl }}/images/highlights/{{highlight.image}}"/>
+<h3 style="text-align: center">{{highlight.title}}</h3>
 <em>{{highlight.description}}</em>
 <br/>
 <a style="float:right" class="nounder" href="{{highlight.url}}">{{highlight.publication}}</a>
@@ -46,3 +46,5 @@ permalink: /publications/
 </div>
 
 {% endfor %}
+
+<br/><br/>

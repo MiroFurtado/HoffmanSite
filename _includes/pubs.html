@@ -1,11 +1,17 @@
 
-<div class="well"><h3 style="margin-top: 1%">News</h3>
-{% for article in site.data.pubs limit:9 %}
-<p><h5><a href={{ article.url }}>{{ article.title }}</a></h5></p>
-<dd>
-<i>{{ article.authors }}</i>
-{{ article.cite }}
+<div class="well" style="width:150%"><h3 style="text-align: center; margin-top: 1%">News</h3>
+{% for article in site.data.news limit:4 %}
+<div class="newsitem panel panel-default">
+<div class="panel-body">
+<p><h5><a href={{ article.url }}>{{ article.title }}</a></h5>
+</p>
+    {{article.description}}
+{% if article.type %}<i style="float: right;" class="material-icons">{{article.type}}</i>
+{% else %} <i style="float: right;" class="material-icons">info</i>
+{% endif %}
+</div>
+</div>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all news</a></h4>
+<h4><a href="{{ site.url }}{{ site.baseurl }}/news">... see all news</a></h4>
 </div>

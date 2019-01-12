@@ -1,19 +1,19 @@
-#Professor
+- name: Dionne Clarke
+  info: Assistant<br/>
+        Office - J 246<br/>
+        Phone 384-6578
+  photo: dionne.jpg
+  email: dlclarke@fas.harvard.edu
 
-- name: Jenny Hoffman
-  photo: JennyHoffman_small_128.jpg
-  info: Professor
-  email: jhoffman@physics.harvard.edu
-  description: Curriculum Vitae - <a href="http://physics.harvard.edu/~jhoffman/HoffmanCVshort.pdf">short</a> - <a href="http://physics.harvard.edu/~jhoffman/HoffmanCVlong.pdf">extended</a>
 
-#Research Associate
+- header: "Research Associate"
 
 - name: Jason Hoffman
   photo: Jason.jpg
   info: Research Associate
   email: jasonhoffman@fas.harvard.edu
 
-#Postdocs
+- header: "Postdocs"
 
 - name: Jianfeng (Jacky) Ge 
   photo: Jacky.jpg
@@ -25,7 +25,7 @@
   info: Postdoctoral Researcher
   email: cmatt@g.harvard.edu
 
-# Graduate Students
+- header: "Graduate Students"
 
 - name: Nathan Drucker
   photo: NathanDrucker_128_2.jpg
@@ -67,7 +67,7 @@
   info: Graduate Student
   email: twebb@g.harvard.edu
 
-#Visiting Students
+- header: "Visiting Students"
 
 - name: William Dorrell
   photo: WillDorrell_128.jpg
@@ -84,7 +84,7 @@
   info: Visiting Student
   email: carrotzhao@sjtu.edu.cn
 
-#Undergraduate Students
+- header: "Undergraduate Students"
 
 - name: Camille Bean
   photo: camilleBean128.jpg

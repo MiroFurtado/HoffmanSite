@@ -1,0 +1,18 @@
+- title: "Professor Hoffman awarded HGWISE Mentor of the Year Award"
+  description: The HGWISE mentor of the year award went to Jenny Hoffman, professor of physics and applied physics.
+  image: "hgwise.png"
+  style: "float: left; height: 25%; width: 25%"
+  url: https://gsas.harvard.edu/news/stories/lean-lean-hgwise-mentor-year-award
+  type: "stars"
+  toc: "HGWISE award"
+
+- title: "Shuvom selected as Finalist in the Regeneron Science Talent Search"
+  url: https://crls.cpsd.us/news/c_r_l_s_student_selected_as_finalist_in_the_regene
+  description: Shuvon's project was titled "Searching for Topological Bubbles in a Phononic Honeycomb Lattice" and built off of his work in the Hoffman lab!
+  type: "stars"
+  toc: "Regeneron"
+
+- title: "Building a Breakthrough, Atom by Atom"
+  url: https://research2reality.com/space-quantum/building-a-breakthrough-atom-by-atom/
+  description: "Professor Hoffman was interviewed by 'Research2Reality' on work in the lab"
+  toc: "research2reality"
