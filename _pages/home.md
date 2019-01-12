@@ -5,12 +5,12 @@ sitemap: false
 permalink: /
 ---
 
-## Correlated Electrons at the Nanoscale
+<h1 class="home-label" style="position: relative; right: 16%; bottom: 38px"><small>About</small></h1>
 
-The Hoffman lab combines molecular beam epitaxy and scanning probe microscopy to understand and control the nanoscale electronic and magnetic properties of exotic materials.
+The **Hoffman lab** combines molecular beam epitaxy and scanning probe microscopy to understand and control the nanoscale electronic and magnetic properties of exotic materials.
  
 
- <div style='color: #22555f' class="alert alert-info" role="alert">
+ <div class="alert alert-info" role="alert">
 <h4>
   Postdoctoral positions available!
 </h4>
@@ -19,7 +19,22 @@ The Hoffman lab combines molecular beam epitaxy and scanning probe microscopy to
   * <a style='jkjkcolor: #698e96' href="http://www.environment.harvard.edu/environmental-fellows-program">Harvard Environmental Fellows Program</a>
 </div>
 
-#### Some materials we study...
+<style>
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+</style>
+
+<h1 class="home-label"><small>We've imaged</small></h1>
  {% include materials.html %}
 
 

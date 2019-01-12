@@ -13,6 +13,16 @@ body {
     padding-top: 70px;
 }
 
+:target::before {
+    content: "";
+    display: block;
+    height: 60px; /* fixed header height*/
+    margin: -60px 0 0; /* negative fixed header height */
+  }
+
+.home-label {
+    float: left; position: relative; right: 30%; margin-bottom: -200px;
+}
 /* Tablet and bigger */
 @media ( min-width: 768px ) {
     .grid-divider {
@@ -46,13 +56,23 @@ figcaption {
 }
 
 
-
 /* Top navigation bar */
 
 .navbar-default {
     background-color: #ffffff;
     border-color: #1C4B99;
     color: #ffffff;
+    box-sizing: border-box;
+    border-width: 1px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #1C4B99;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #fff;
 }
 
 p.byline {
