@@ -1,0 +1,11 @@
+
+<div class="well"><h3 style="margin-top: 1%">News</h3>
+{% for article in site.data.pubs limit:9 %}
+<p><h5><a href={{ article.url }}>{{ article.title }}</a></h5></p>
+<dd>
+<i>{{ article.authors }}</i>
+{{ article.cite }}
+{% endfor %}
+
+<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all news</a></h4>
+</div>

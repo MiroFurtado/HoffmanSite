@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <body data-spy="scroll" data-target="#toc">
+
+    {% include header.html %}
+
+    <div>
+      <div class="col-sm-1" style="float:left;">
+        <nav id="toc" data-spy="affix" data-toggle="toc">
+                <h4 data-toc-skip>Skip to</h4>
+        </nav>
+      </div>
+      <div class="col-sm-11"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-sm-1"></div>
+      <div class="col-sm-11">
+      <div class="row">
+        {{ content }}
+      </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
