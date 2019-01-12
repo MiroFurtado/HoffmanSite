@@ -11,7 +11,7 @@ permalink: /people/
 ## Principal Investigator
 
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/people/Hoffman3.png" class="img-responsive" width="20%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/people/hoffman3.png" class="img-responsive" width="20%" style="float: left" />
   <h3 data-toc-text="Principal Investigator">Jenny Hoffman </h3>
   <i>Professor<br>email:  <jhoffman@physics.harvard.edu></i>
   <ul style="list-style:none">  
