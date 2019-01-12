@@ -1,6 +1,6 @@
 ---
 title: "Hoffman Lab - FAQ"
-layout: default
+layout: withnav
 excerpt: "Hoffman Lab - FAQ and Links"
 sitemap: false
 permalink: /faq/
@@ -142,11 +142,9 @@ If you will be visiting Harvard in the mean time, please contact graduate studen
 
 #### Useful stuff
 
-<a href="links/Conferences.php">TODO Conference calendar</a>
+<a href="{{ site.url }}{{ site.baseurl }}/conference/cal">Conference calendar</a>
 
-<a href="links/Page-charges.php">TODO: Journal page charges</a>
-
-<a href="links/Length-limits.php">TODO: Journal length limits</a>
+<a href="{{ site.url }}{{ site.baseurl }}/journalcharges/">Journal page charges and length limits</a>
 
 
 #### Policies
@@ -155,6 +153,8 @@ If you will be visiting Harvard in the mean time, please contact graduate studen
 
 <a href="{{ site.url }}{{ site.baseurl }}/recs">Recommendation policy</a>
 
-<a href="http://hoffman.physics.harvard.edu/links/journal-club.php">TODO: Hoffman Lab Journal Club</a>
+<a href="{{ site.url }}{{ site.baseurl }}/meeting/links">Hoffman Lab Journal Club</a>
 
 <a href="https://wiki.harvard.edu/confluence/display/hoffman/Hoffman+Lab+Home">Hoffman Lab Wiki Space</a>
+
+<br/><br/>

@@ -1,6 +1,6 @@
 ---
 title: "Hoffman Lab - Teaching"
-layout: default
+layout: withnav
 excerpt: "Hoffman Lab - Teaching"
 sitemap: false
 permalink: /teaching/

@@ -6,14 +6,17 @@
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
 
     {% include header.html %}
 
     <div class="container-fluid">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11">
       <div class="row">
         {{ content }}
       </div>
+    </div>
     </div>
 
     {% include footer.html %}

@@ -1,6 +1,6 @@
 ---
 title: "Hoffman Lab - Research"
-layout: default
+layout: withnav
 excerpt: "Hoffman Lab -- Research"
 sitemap: false
 permalink: /research/

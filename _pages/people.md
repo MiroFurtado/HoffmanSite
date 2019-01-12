@@ -6,7 +6,25 @@ sitemap: false
 permalink: /people/
 ---
 
-# Group Members
+# People
+
+## Professor
+
+<div class="col-sm-12 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/people/JennyHoffman_small_128.jpg" class="img-responsive" width="20%" style="float: left" />
+  <h3>Jenny Hoffman </h3>
+  <i>Professor<br>email:  jhoffman@physics.harvard.edu</i>
+  <ul style="list-style:none">  
+  
+  <li> Curriculum Vitae -<a href="http://physics.harvard.edu/~jhoffman/HoffmanCVshort.pdf">short</a>/<a href="http://physics.harvard.edu/~jhoffman/HoffmanCVlong.pdf">extended</a></li><br/>
+  
+ <li><a href="http://physics.harvard.edu/~jhoffman">Personal Website</a></li>
+  
+  </ul>
+<br/><br/>
+</div>
+
+## Group
 
 {% assign number_printed = 0 %}
 {% for member in site.data.people %}

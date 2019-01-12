@@ -6,9 +6,14 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Highlights
+# Publications
+
+
+
+## Highlights
 
 <div class="container">
+
 
 {% for highlight in site.data.highlights %}
 
@@ -27,7 +32,7 @@ permalink: /publications/
 {% endfor %}
 </div>
 
-# Publications
+## All
 
 <br/>
 

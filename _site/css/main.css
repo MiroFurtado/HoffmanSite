@@ -2314,6 +2314,11 @@ img { margin-bottom: 24px; margin-top: 17px; border-radius: 2%; }
 
 body { padding-top: 70px; }
 
+/* Tablet and bigger */
+@media (min-width: 768px) { .grid-divider { position: relative; padding: 0; }
+  .grid-divider > [class*='col-'] { position: static; }
+  .grid-divider > [class*='col-']:nth-child(n+2):before { content: ""; border-left: 1px solid #DDD; position: absolute; top: 0; bottom: 0; }
+  .col-padding { padding: 0 15px; } }
 .nounder { color: #b8bcc8; text-decoration: none; }
 
 figcaption { text-align: right; margin-top: -20px; margin-bottom: 20px; }
